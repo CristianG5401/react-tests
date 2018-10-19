@@ -1,0 +1,14 @@
+import '@babel/polyfill'
+import './styles/main.scss'
+
+// Libs
+import React from 'react'
+import ReactDOM from 'react-dom'
+
+// Components
+import App from './components/App/App'
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('main')
+)

@@ -1,41 +1,29 @@
 import './main.scss'
 
+// Libs
 import React from 'react'
 import ReactDOM from 'react-dom'
 import _ from 'lodash'
 
-class Toggle extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = { estaActivado: true }
-    // This binding is necessary to make `this` work in the callback
-    // this.handleClick = this.handleClick.bind(this)
-  }
+// Components
+import Toggle from './components/Toggle'
+import LikeButton from './components/LikeButton'
+import LoginControl from './components/conditional_rendering/LoginControl'
+import Calculator from './components/lifting_state_up/Calculator'
 
-  /**
-   * Esta funcion se encarga de manejar el evento onClick
-   *
-   * @param {*} variableExtra Esta variable contiene cualquier cosa que se envie en el evento ej: si es un boton de eliminar
-   * puedo enviar el id de la fila que quiero eliminar
-   * @param {*} e Contiene informacion del evento
-   * @memberof Toggle
-   */
-  handleClick (variableExtra, e) {
-    console.log('variable Extra', variableExtra)
+ReactDOM.render(
+  <Calculator />,
+  document.getElementById('calculator')
+)
 
-    this.setState((state) => ({
-      estaActivado: !state.estaActivado
-    }))
-  }
+/** +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ **/
 
-  render () {
-    return (
-      <button onClick={this.handleClick.bind(this, 'perro')}>
-        {this.state.estaActivado ? 'Encendido' : 'Apagado'}
-      </button>
-    )
-  }
-}
+ReactDOM.render(
+  <LoginControl />,
+  document.getElementById('login_control')
+)
+
+/** +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ **/
 
 ReactDOM.render(
   <Toggle />,
@@ -43,25 +31,6 @@ ReactDOM.render(
 )
 
 /** +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ **/
-
-class LikeButton extends React.Component {
-  constructor (props) {
-    super(props)
-    this.state = { liked: false }
-  }
-
-  render () {
-    if (this.state.liked) {
-      return 'You liked this.'
-    }
-
-    return (
-      <button onClick={() => this.setState({ liked: true })}>
-        Like
-      </button>
-    )
-  }
-}
 
 const domContainer = document.querySelector('#like_button_container_jsx')
 ReactDOM.render(<LikeButton />, domContainer)
