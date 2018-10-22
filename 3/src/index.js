@@ -1,4 +1,5 @@
 import '@babel/polyfill'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/main.scss'
 
 // Libs
