@@ -3,11 +3,20 @@
     "standard",
     "plugin:react/all"
   ],
+  "env": {
+    "cypress/globals": true
+  },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/jsx-indent": false,
     "react/jsx-indent-props": false,
     "react/jsx-max-depth": false,
-    "react/require-default-props":  false
-  }
+    "react/require-default-props": false,
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2
+  },
+  "plugins": [
+    "cypress",
+    "chai-friendly"
+  ]
 }

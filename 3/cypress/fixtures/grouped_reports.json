@@ -1,0 +1,315 @@
+[
+  {
+     "createdAt": "2018-03-01",
+     "createdBy": "",
+     "title": "Checlist Detail",
+     "status": "active",
+     "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+     "config": {
+        "format": "pdf",
+        "parameters": []
+     },
+     "notification": {
+        "status": "success",
+        "count": 1
+     },
+     "locale": "en_US",
+     "id": "17c686c2-875f-4227-a773-805b8e25fa94",
+     "reportType": "Checklist Detail",
+     "createdAtLocal": "03/01/2018",
+     "recipients": [],
+     "children": [
+        {
+           "createdAt": "2018-03-01",
+           "createdBy": "Cathrine Beck",
+           "title": "Checklist Detail 0301",
+           "svgIcon": "info-circle",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "03/01/2018",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-29",
+           "createdBy": "Qin li",
+           "title": "Checklist Detail 0229",
+           "svgIcon": "info-circle",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "02/29/2018",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-28T18:45:25.392Z",
+           "createdBy": "Cathrine Beck",
+           "title": "Checklist Detail 0228",
+           "svgIcon": "info-circle",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "02/28/2018",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-27T18:45:25.392Z",
+           "createdBy": "Cathrine Beck",
+           "title": "Checklist Detail 0227 - copy",
+           "svgIcon": "info-circle",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "02/27/2018",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-26T18:45:25.392Z",
+           "createdBy": "Alexander Modlinger",
+           "title": "Checklist Detail 0226",
+           "svgIcon": "download",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "02/26/2018",
+           "recipients": []
+        }
+     ]
+  },
+  {
+     "createdAt": "2018-02-21T18:45:25.392Z",
+     "createdBy": "",
+     "title": "Docs Issue Detail",
+     "status": "active",
+     "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+     "config": {
+        "format": "pdf",
+        "parameters": []
+     },
+     "notification": {
+        "status": "success",
+        "count": 1
+     },
+     "locale": "en_US",
+     "id": "17c686c2-875f-4227-a773-805b8e25fa234",
+     "reportType": "Docs Issue Detail",
+     "createdAtLocal": "02/21/2018",
+     "recipients": [],
+     "children": [
+        {
+           "createdAt": "2018-09-27T18:45:25.392Z",
+           "createdBy": "Cathrine Beck",
+           "title": "Docs Issue Detail 0301",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "Sep 27, 2018 1:45pm",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-29T18:45:25.392Z",
+           "createdBy": "Qin li",
+           "title": "Docs Issue Detail 0229",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "Sep 27, 2018 1:45pm",
+           "recipients": []
+        }
+     ]
+  },
+  {
+     "createdAt": "2018-02-20T18:45:25.392Z",
+     "createdBy": "",
+     "title": "Checklists Summary",
+     "status": "active",
+     "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+     "config": {
+        "format": "pdf",
+        "parameters": []
+     },
+     "notification": {
+        "status": "success",
+        "count": 1
+     },
+     "locale": "en_US",
+     "id": "17c686c2-875f-4227-a773-805b8e25fa96",
+     "reportType": "Checklists Summary",
+     "createdAtLocal": "02/20/2018",
+     "recipients": [],
+     "children": [
+        {
+           "createdAt": "2018-09-27T18:45:25.392Z",
+           "createdBy": "Cathrine Beck",
+           "title": "Checklists Summary 0301",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "Sep 27, 2018 1:45pm",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-29T18:45:25.392Z",
+           "createdBy": "Qin li",
+           "title": "Checklists Summary 0229",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "Sep 27, 2018 1:45pm",
+           "recipients": []
+        }
+     ]
+  },
+  {
+     "createdAt": "2018-02-19T18:45:25.392Z",
+     "createdBy": "",
+     "title": "RFI Detail",
+     "status": "active",
+     "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+     "config": {
+        "format": "pdf",
+        "parameters": []
+     },
+     "notification": {
+        "status": "success",
+        "count": 1
+     },
+     "locale": "en_US",
+     "id": "17c686c2-875f-4227-a773-805b8e25fa97",
+     "reportType": "RFI Detail",
+     "createdAtLocal": "02/19/2018",
+     "recipients": [],
+     "children": [
+        {
+           "createdAt": "2018-09-27T18:45:25.392Z",
+           "createdBy": "Cathrine Beck",
+           "title": "RFI Detail 0301",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "Sep 27, 2018 1:45pm",
+           "recipients": []
+        },
+        {
+           "createdAt": "2018-02-29T18:45:25.392Z",
+           "createdBy": "Qin li",
+           "title": "RFI Detail 0229",
+           "status": "active",
+           "reportDefinitionId": "00000000-0000-0000-0000-000000000001",
+           "config": {
+              "format": "pdf",
+              "parameters": []
+           },
+           "notification": {
+              "status": "success",
+              "count": 2
+           },
+           "locale": "en_US",
+           "id": "17c686c2-875f-4227-a773-805b8e25fa95",
+           "reportType": "",
+           "createdAtLocal": "Sep 27, 2018 1:45pm",
+           "recipients": []
+        }
+     ]
+  }
+]

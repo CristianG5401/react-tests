@@ -3,7 +3,7 @@ import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 
 // Bootstrap - Components
-import { Button, ListGroup } from 'react-bootstrap'
+import { ListGroup } from 'react-bootstrap'
 
 // Components
 import Home from '../Home'
@@ -34,9 +34,6 @@ const App = () => {
         <h2>
           {'Hi, hi boiii how are yu'}
         </h2>
-        <Button>
-          {'Primary'}
-        </Button>
         <hr />
 
         <div className='App-header'>
@@ -57,6 +54,11 @@ const App = () => {
               </Link>
             </li>
           </ul>
+          <hr />
+          <hr />
+          <h3>
+            {'React bootstrap listgroup'}
+          </h3>
           <ListGroup as='ul'>
             <ListGroup.Item
               action
@@ -71,6 +73,8 @@ const App = () => {
               {'About'}
             </ListGroup.Item>
           </ListGroup>
+          <hr />
+          <hr />
         </div>
 
         <div className='app-body'>
