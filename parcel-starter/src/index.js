@@ -10,5 +10,5 @@ import App from './components/App/App'
 
 ReactDOM.render(
   <App />,
-  document.getElementById('main')
+  document.getElementById('root')
 )

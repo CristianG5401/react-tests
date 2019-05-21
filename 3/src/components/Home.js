@@ -13,6 +13,7 @@ export default class Home extends React.Component {
       .then(res => {
         console.log('test data', res)
       })
+      .catch(err => console.log('no esta funcionando el api cypress', err))
   }
 
   render () {

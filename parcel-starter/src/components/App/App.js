@@ -1,31 +1,34 @@
 import React from 'react'
 
-/*
+// Components
+import Table from '../Table/Table'
+
 class App extends React.Component {
   render () {
+    const characters = [
+      {
+        name: 'Charlie',
+        job: 'Janitor'
+      },
+      {
+        name: 'Mac',
+        job: 'Bouncer'
+      },
+      {
+        name: 'Dee',
+        job: 'Aspring actress'
+      },
+      {
+        name: 'Dennis',
+        job: 'Bartender'
+      }
+    ]
     return (
-      <div className='App'>
-        <div className='App-header'>
-          <h2>
-            Hi, hi boiii how are yu
-          </h2>
-        </div>
+      <div className="App">
+        <Table characterData={characters}/>
       </div>
     )
   }
-}
-*/
-
-const App = () => {
-  return (
-    <div className='App'>
-      <div className='App-header'>
-        <h2>
-          {'Hi, hi boiii how are yu'}
-        </h2>
-      </div>
-    </div>
-  )
 }
 
 export default App
